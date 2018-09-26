@@ -1,0 +1,23 @@
+.messages {
+  position: absolute;
+  top: $base-unit * 2;
+  left: $base-unit * 2;
+  right: $base-unit * 2;
+  bottom: 0;
+  border: 1px solid $color-grey-4;
+  overflow-y: auto;
+}
+.messages-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.messages-item {
+  position: relative;
+  padding: $base-unit / 2 $base-unit;
+  line-height: $base-unit;
+}
+.messages-user {
+  margin-right: $base-unit / 3;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.sign-in {
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.sign-in-panel {
+  display: inline-flex;
+  padding: $base-unit * 5;
+  margin: auto;
+  border: 1px solid $color-grey-4;
+  background: $color-white-1;
+}

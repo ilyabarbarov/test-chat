@@ -1,0 +1,53 @@
+.form {
+  position: relative;
+}
+.form_center {
+  text-align: center;
+}
+.form-group {
+  padding: 0 0 $base-unit;
+}
+.form-label {
+  display: block;
+  margin: 0 $base-unit / 2 $base-unit / 2 0 ;
+  line-height: $base-unit * 2;
+}
+.form-error {
+  font-size: $base-font - 2px;
+  color: $color-red-1;
+}
+.form-input {
+  display: inline-block;
+  vertical-align: top;
+  height: $base-unit * 2;
+  padding: 0 $base-unit / 2;
+  border: 1px solid $color-grey-4;
+  line-height: $base-unit * 2;
+  font-size: $base-font;
+  background: $color-grey-1;
+  &:focus {
+    background: $color-white-1;
+  }
+  &:disabled {
+    background: $color-grey-3;
+  }
+}
+.form-button {
+  display: inline-block;
+  vertical-align: top;
+  height: $base-unit * 2;
+  line-height: $base-unit * 2;
+  border: 1px solid $color-grey-4;
+  font-size: $base-font;
+  background: $color-grey-2;
+  &:disabled {
+    background: $color-grey-3;
+  }
+}
+.form-control_80 {
+  width: 79%;
+  margin-right: 1%;
+}
+.form-control_20 {
+  width: 20%;
+}
